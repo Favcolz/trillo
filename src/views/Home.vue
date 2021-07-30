@@ -91,7 +91,74 @@
 
         <div class="legal">&copy; 2017 by trillo. All right reserved.</div>
       </nav>
-      <main class="hotel-view">Hotel Views</main>
+      <main class="hotel-view">
+        <div class="gallery">
+          <figure class="gellery__item">
+            <img
+              src="../assets/img/hotel-1.jpg"
+              alt="hotel 1"
+              class="gallery__photo"
+            />
+          </figure>
+          <figure class="gellery__item">
+            <img
+              src="../assets/img/hotel-2.jpg"
+              alt="hotel 2"
+              class="gallery__photo"
+            />
+          </figure>
+          <figure class="gellery__item">
+            <img
+              src="../assets/img/hotel-3.jpg"
+              alt="hotel 3"
+              class="gallery__photo"
+            />
+          </figure>
+        </div>
+
+        <div class="overview">
+          <h1 class="overview__heading">Hotel Las Palmas</h1>
+          <div class="overview__stars">
+            <img
+              src="../assets/SVG/star.svg"
+              alt="User photo"
+              class="overview__icon-star"
+            />
+            <img
+              src="../assets/SVG/star.svg"
+              alt="User photo"
+              class="overview__icon-star"
+            />
+            <img
+              src="../assets/SVG/star.svg"
+              alt="User photo"
+              class="overview__icon-star"
+            />
+            <img
+              src="../assets/SVG/star.svg"
+              alt="User photo"
+              class="overview__icon-star"
+            />
+            <img
+              src="../assets/SVG/star.svg"
+              alt="User photo"
+              class="overview__icon-star"
+            />
+          </div>
+          <div class="overview__location">
+            <img
+              src="../assets/SVG/location-pin.svg"
+              alt="User photo"
+              class="overview__icon-location"
+            />
+            <button class="btn-inline">Albufeira, Portugel</button>
+          </div>
+          <div class="overview__rating">
+            <div class="overview__rating-average">8.6</div>
+            <div class="overview__rating-count">429 vote</div>
+          </div>
+        </div>
+      </main>
     </div>
   </div>
 </template>
